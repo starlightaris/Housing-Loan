@@ -9,7 +9,7 @@ export function Header() {
     <header className="bg-white border-b-[3px] border-[#E11D25] shadow-sm">
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
         {/* Horizontal full-colour logo on white, per the Seylan logo usage guide */}
-        <img src="/seylan-logo.svg" alt="Seylan Bank" className="h-14 md:h-16 w-auto" />
+        <img src={`${import.meta.env.BASE_URL}seylan-logo.svg`} alt="Seylan Bank" className="h-14 md:h-16 w-auto" />
         <div className="text-right">
           <p className="text-xs md:text-sm font-semibold text-[#606060]">Digital Housing Loan Application</p>
           <p className="text-[11px] md:text-xs mt-0.5 text-[#606060]/80">Secure &amp; Fast</p>
