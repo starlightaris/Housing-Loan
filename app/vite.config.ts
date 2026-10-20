@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Housing-Loan/',
+  base: './',
   build: { outDir: '../docs', emptyOutDir: true },
   plugins: [react(), tailwindcss()],
   server: { port: 5173, host: '127.0.0.1' },

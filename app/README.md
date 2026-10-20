@@ -6,7 +6,7 @@ every "integration" (Seylan profile lookup, document reading, CRIB, spouse fetch
 ```bash
 npm install
 npm run dev      # http://127.0.0.1:5173
-npm run build    # static output in dist/ (deployable to Azure Static Web Apps etc.)
+npm run build    # static output in ../docs/ for GitHub Pages
 ```
 
 ## Demo script
