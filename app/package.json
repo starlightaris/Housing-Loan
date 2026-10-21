@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node -e \"import('fs').then(f=>f.rmSync('../assets',{recursive:true,force:true}))\"",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },

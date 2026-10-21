@@ -6,7 +6,7 @@ every "integration" (Seylan profile lookup, document reading, CRIB, spouse fetch
 ```bash
 npm install
 npm run dev      # http://127.0.0.1:5173
-npm run build    # static output in ../docs/ for GitHub Pages
+npm run build    # builds into the repo root (index.html, assets/) for GitHub Pages; commit the result
 ```
 
 ## Demo script
