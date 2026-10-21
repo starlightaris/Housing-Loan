@@ -90,7 +90,7 @@ function NicFetch() {
     setBusy(true)
     await sleep(1300)
     if (id === DEMO_NIC) {
-      actions.lookup()
+      actions.everything() // the hardcoded record covers the whole application, not just section 1
       s.fill({ 'a.0.mobile': norm }, 'Verified')
     } else setMsg('No Seylan customer record found for this NIC. Please fill in the details below.')
     setBusy(false)
